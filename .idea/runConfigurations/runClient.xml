@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="runClient" type="Application" factoryName="Application" singleton="true">
+    <envs>
+      <env name="MOD_CLASSES" value="$PROJECT_DIR$/../KillCupAddonTurnKillAura\build\sourcesSets\main" />
+      <env name="MCP_MAPPINGS" value="official_1.20.1" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="cpw.mods.bootstraplauncher.BootstrapLauncher" />
+    <module name="KillCupAddonTurnKillAura" />
+    <option name="PROGRAM_PARAMETERS" value="--launchTarget forgeclient --version MOD_DEV --assetIndex 17 --assetsDir E:\.gradle\caches\forge_gradle\assets --gameDir . --mixin.config kca_tka.mixins.json" />
+    <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=REGISTRIES -Dnet.minecraftforge.gradle.GradleStart.srg.srg-mcp=D:\MinecraftForgeMod\KillCupAddonTurnKillAura\build\createSrgToMcp\output.srg -Dmixin.env.remapRefMap=true -Dmixin.env.refMapRemappingFile=D:\MinecraftForgeMod\KillCupAddonTurnKillAura\build\createSrgToMcp\output.srg -Dforge.enabledGameTestNamespaces=kca_tka -Dforge.enableGameTest=true -Djava.net.preferIPv6Addresses=system -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":prepareRunClientCompile" externalProjectPath="$PROJECT_DIR$" />
+    </method>
+  </configuration>
+</component>
